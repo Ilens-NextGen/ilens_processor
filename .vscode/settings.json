@@ -1,0 +1,18 @@
+{
+    "python.testing.pytestEnabled": false,
+    "terminal.integrated.enablePersistentSessions": false,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll.ruff": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "ruff.importStrategy": "fromEnvironment",
+    "ruff.organizeImports": false,
+    "ruff.lint.run": "onType",
+}
